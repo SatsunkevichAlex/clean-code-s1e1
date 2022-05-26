@@ -41,6 +41,7 @@ var createNewTaskElement=function(taskString){
     editInput.type="text";
     editInput.classList.add("task");
     editInput.classList.add("incomplete-tasks__list-item_edit");
+    editInput.classList.add("completed-tasks__list-item");
 
     editButton.innerText="Edit"; //innerText encodes special characters, HTML does not.
     editButton.className="edit";

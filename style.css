@@ -61,7 +61,9 @@ button {
   outline: none;
 }
 
-button {
+.edit,
+.delete,
+.add-item__button {
   background: none;
   border: 0px;
   color: #888;
@@ -87,7 +89,10 @@ button:hover {
   text-transform: uppercase;
 }
 
-input[type="text"] {
+.add-item__input,
+.incomplete-tasks__input,
+.incomplete-tasks__input,
+.completed-tasks__input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -100,7 +105,10 @@ input[type="text"] {
   color: #888;
 }
 
-input[type="text"]:focus {
+.add-item__input:focus,
+.incomplete-tasks__input:focus,
+.incomplete-tasks__input:focus,
+.completed-tasks__input:focus {
   color: #333;
 }
 
@@ -159,7 +167,7 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
+.completed-tasks__label {
   text-decoration: line-through color #888;
 }
 
